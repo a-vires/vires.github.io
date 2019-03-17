@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        /*background-color: #3B4856;*/
+        background-color: #333333;
+        background-image: url('background HD@1x.jpg');
+        background-repeat: no-repeat;
+        background-position: center top left;
+        background-size: 100% 512px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #main-wrapper {
+    }
+
+    h2 {
+        margin: 0px;
+        padding: 20px 0px;
+        color: black;
+    }
+
+    #body-wrapper {
+        margin: 0 auto;
+        width: 600px;
+        background-color: white;
+        padding: 30px 0px;
+        border-top: 6px #3B4856 solid;
+    }
+
+    .test-div {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-content {
+        padding: 0px 80px;
+        font-size: 14px;
+        color: grey;
+        line-height: 18px;
+    }
+
+    #main-wrapper h1 {
+        text-align: center;
+        margin: 70px 0px;
+        font-size: 60px;
+        line-height: 70px;
+        color: white;
+    }
+
+    .main-content h2 {
+        text-align: center;
+        color: grey;
+        font-size: 24px;
+        font-weight: 100;
+        width: 300px;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+
+    .sub-content {
+        padding: 30px 80px;
+        font-size: 12px;
+        color: grey;
+        line-height: 20px;
+    }
+
+    /* margin: 0 auto; & width 100% or 600px */
+    .p-text {
+        line-height: 27px;
+        font-size: 16px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .button {
+        background-color: #333333; /* Dark #4BD4DD #*/
+        border: none;
+        color: white;
+        padding: 10px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        border-radius: 3px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .button1 {
+
+    }
+
+    .button1:hover {
+        background-color: #3B4856; /*e7e7e7 */
+    }
+
+    .img-spacer {
+        width: 100%;
+        height: 400px;
+    }
+
+    .img-logo {
+        width: 100%;
+        height: 160px;
+    }
+
+    .footer {
+        text-align: center;
+        /*background-color: #3B4856;*/
+        padding-top: 15px;
+    }
+
+    .sub-text {
+        font-size: 11px;
+        color: grey;
+    }
+
+    /* ----------- STANDARD MEDIA ----------- */
+    /* On screens that are 992px or less, set the background color to none */
+
+    @media screen
+    and (max-width: 992px) {
+        body {
+            background-image: none;
+        }
+
+        .main-content {
+            padding: 0px 80px;
+            font-size: 14px;
+            color: grey;
+            line-height: 18px;
+        }
+
+        #main-wrapper h1 {
+            font-size: 40px;
+            line-height: 30px;
+        }
+    }
+
+
+    /* ----------- CSS MEDIA QUERIES FOR PHONES, TABLETS, LAPTOPS, WATCHES ----------- */
+    /* ----------- Andrew Vu ----------- */
+
+
+    /* ----------- Non-Retina Screens ----------- */
+
+
+    @media screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+    }
+
+
+    /* ----------- Retina Screens ----------- */
+
+
+    @media screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (min-resolution: 192dpi) {
+    }
+
+
+    /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .main-content {
+
+        }
+
+        .p-text {
+            font-size: 14px;
+            line-height: 30px;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+
+    }
+
+
+    /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .footer {
+            padding-top: 30px;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+
+    /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+        .footer {
+            padding-top: 25px;
+        }
+
+        .sub-text {
+            font-size: 12px;
+        }
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+
+    /* ----------- iPhone X ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+        .footer {
+            padding-top: 30px;
+        }
+
+        .sub-text {
+            font-size: 12px;
+        }
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+
+    /* ----------- Apple Watch ----------- */
+
+
+    @media
+    (max-device-width: 42mm)
+    and (min-device-width: 38mm) {
+
+    }
+
+
+    /* ----------- iPad 1, 2, Mini and Air ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+        .footer {
+            padding-top: 30px;
+        }
+
+        .sub-text {
+            font-size: 14px;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+    }
+
+
+    /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .footer {
+            padding-top: 30px;
+        }
+
+        .sub-text {
+            font-size: 14px;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+
+    /* ----------- iPad Pro 10.5" ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 834px)
+    and (max-device-width: 1112px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Portrait */
+    /* Declare the same value for min- and max-width to avoid colliding with desktops */
+    /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+    @media only screen
+    and (min-device-width: 834px)
+    and (max-device-width: 834px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Landscape */
+    /* Declare the same value for min- and max-width to avoid colliding with desktops */
+    /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+    @media only screen
+    and (min-device-width: 1112px)
+    and (max-device-width: 1112px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+
+    /* ----------- iPad Pro 12.9" ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 1024px)
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .footer {
+            padding-top: 30px;
+        }
+
+        .sub-text {
+            font-size: 15px;
+        }
+    }
+
+    /* Portrait */
+    /* Declare the same value for min- and max-width to avoid colliding with desktops */
+    /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+    @media only screen
+    and (min-device-width: 1024px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Landscape */
+    /* Declare the same value for min- and max-width to avoid colliding with desktops */
+    /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+    @media only screen
+    and (min-device-width: 1366px)
+    and (max-device-width: 1366px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+
+    /* ----------- Galaxy 6, S7, and S7 edge ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 4) {
+        /* STYLES GO HERE */
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 4)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 4)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+
+    /* ----------- Galaxy S8, S8+, S9, S9+ and Note 8 ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 740px)
+    and (-webkit-min-device-pixel-ratio: 4) {
+        /* STYLES GO HERE */
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 740px)
+    and (-webkit-min-device-pixel-ratio: 4)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 740px)
+    and (-webkit-min-device-pixel-ratio: 4)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+    </style>
+        <title>
+        Assessment 1: My Profile - Andrew Vu
+        </title>
+</head>
+
+<body>
+    <div class="test-div">
+    <div style="text-align: right; width: 100%; margin: 0px; padding: 0px">
+        <a style=" margin: 20px; font-size: 11px; line-height: 40px; color: grey" href="https://a-vires.github.io/vires.github.io/" target="_blank">View in browser</a>
+    </div>
+    <div id="main-wrapper">
+        <div style="padding: 30px 0px 30px 0px">
+            <!--<img class="img-logo" src="andrew.svg">-->
+        </div>
+        <div id="body-wrapper">
+            <div class="main-content">
+                <h2>Assessment 1: Test Results</h2>
+            </div>
+            <!-- <div style="text-align: center; background-color: white">
+                <div style="padding-top: 20px"></div>
+                <a href="testresults.html" target="_blank" class="button button1"> Test Results </a>
+                <div style="padding-bottom: 50px"></div>
+            </div> -->
+            <!--<img class="img-spacer" src="spacer.jpg">-->
+
+             <img class="img-logo" src="protagonist.jpg">
+            <div class="sub-content">
+                <p>The results of an online Myers-Briggs test: ENFJ-A</p>
+                <a class="sub-text" href="https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/" target="_blank">https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/</a>
+                     <img class="img-spacer" src="ENFJ.png">
+                    <img class="img-spacer" src="Results.png">
+                <p> The results of an online learning style test: Auditory</p>
+                 <a class="sub-text" href="http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml" target="_blank">http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml</a>
+                    <img class="img-spacer" src="learningtest.png">
+
+                <p>The results of one further online test of your choosing: Creativity Test</p>
+                  <a class="sub-text" href="http://www.testmycreativity.com/" target="_blank">http://www.testmycreativity.com/</a>
+                   <img class="img-spacer" src="creativitytest.png">                 
+
+                <p>Q: What do the results of these tests mean for you?</p>
+                <p>A: The Myers-Briggs test: I scored the Protagonist Role - ENFJ-A (Extraverted, Intuitive, Feeling, Judging, Assertive).
+                    To me this means I am a well defined as a character,
+                    Generally speaking, the protagonist is the character whom the reader or audience accompanies for the greater part of the narrative. 
+                    Often the protagonist is the character who exhibits the most profound change or transformation by the end of the story.
+                    https://www.beemgee.com/blog/protagonist/</p>
+
+                <p>Q: How do you think these results may influence your behaviour in a team?</p>
+                <p>A: I think the results have a possive influce on my behaviour when working in a team, It shows my assertiveness and judgemental skills as well as empathy for my teammates.</p>
+
+                <p>Q: How should you take this into account when forming a team?</p>
+                <p>A: When taking into account, I would be a very good and understanding leader, seeing both sides of the spectrum and looking at logic before creativity.</p>
+            </div>
+        </div>
+            <div class="footer">
+            <a class="sub-text" href="https://a-vires.github.io/vires.github.io/" target="_blank">https://a-vires.github.io/vires.github.io/</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

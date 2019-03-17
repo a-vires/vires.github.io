@@ -1,0 +1,278 @@
+
+<!-- Q: A natural starting place is to ask why you have chosen to study at RMIT? -->
+- There must be a reason why you are interested in IT, or you wouldn't have made it this far!
+A: I've choosen RMIT since it's a global university recognised for leadership and innovation in technology. Most of my colleges in the industry are now RMIT Alumni and experts in the field.
+
+<!-- Q: What makes IT interesting to me? -->
+A: As a Software Engineer \ Developer we're like the arrowheads of soceity, in order for 'us' - The collective human-race, to evolve as an apex species we need to constantly push innovation and future technologiy advancements so we can explore the 'unknown'.
+I strongly beleive we need more hackers in the world to 'break things' and take risk of behalf of soceity.
+If 'We' - 'The Collective', followed the original 'White-Paper' of the 'internet of 98' all we would have is legacy HTML and CSS code for 'emails'.. The Facebook, Instagram, and Snapchat of today would no longer exist without Hack's, Glitche's & Exploit's.
+The death of the 'Planet' won't be due to natural deasters or diseases but our very own doing. The take over of Artifical Intelligence is upon us.
+A manifesto written by Andrew Vu. (By-me-for-me)
+
+<!-- What lead me to study at RMIT? -->
+A: I visted Melbourne for the first time in 'late 2016' to see relatives in Springvale at the time I need a break from my main family for a quick 2 week holiday as i've been living in Perth and Sydney my whole life and got sick of my local environment.
+One day I went out for dinner with freinds as we took public transportation into the CBD (Uber was a bad), I saw a beautiful Architectural Building Facade & noticed it was RMIT's Main Campus building and it turns out to be a University.
+
+<!-- What should you hope to do after graduation? -->
+I'm currently doing my internship for a blockchain company called 'Power Ledger', I one day hope to advance and become a Soultions Architect or Blockchain Developer.
+
+<!-- Note: This assignment will require you to think about questions like these and answer them as best you can.
+This information will be used in later assignments too assist you to form a group, and to plan IT project with your group. -->
+
+<!-- Presentation: In order to help you develope a practical skill, you are presented your Assignment 1 information on a website, which you will set up via Github Pages.
+- Done  -->
+
+
+<!-- What you will demostrate: 
+- Interests in IT
+- Explore an ideal job.
+- Create a personal profile
+- Develop a project idea. -->
+
+<!-- How you will demostrate it:
+Writing up an initial document covering all of the different areas listed above (and detailed below), then to be formatted and presented as a website hosted on Github Pages.
+- Done
+
+Specs:
+Personal Information - Include: -->
+
+Name: Andrew Vu
+Student Number: S3668698
+Email Address: vu@andrew-vu.com
+Basic Background information: Professional Magic: The Gathering Player (STANDARD)
+Nationality: Australian
+Culture: Vietnamese
+Education to date: University of Western Australia (Architecture)
+Languages Spoken: English, Vietnamese
+Fun fact: SCG MTG Inventational Qualifier eSports 2019 Top 8 - Perth, Western Australia
+
+
+<!-- Interest In IT: You should answer the questions below as best you can. Each answer should be one paragraph in length. -->
+
+<!-- What is your interest in IT? - When did your interest in IT start? - Was there a partocular event or person that sparked your interest? -->
+My intest for IT started very young back in 2008 when I was in High School (lol yes, High School), I've received alot of IT Awards and still have kepted them till today (see below),
+For me its about understanding technology and thinking differently, at the time I'd considerred myself to be a 'Nerd'. 
+Growing up with a 'broken' family didn't help, as I didn't have good parents to raise or guide me, so I turned to the internet for advice.
+My childhood consisted in playing ALOT of 'Magic: the gathering', Playstation 1 & 2.
+- Funny enough, 10 years later Im the state champion for 'Magic: the gathering' 
+- Honestly, This expeirence had lead and ignited my passion for Programing \ Development, as I have pursued this path at a very young age but never considered it as a Professional Carreer until now.
+
+
+<!-- -Outline your experience (If Any)
+My curerent experience: -->
+
+Programming Languages
+o Solidity (Ethereum Blockchain Smart Contracts)
+o Ruby on Rails/Bash/Ubuntu/Linux (Object-oriented Programming OOP)
+o Python (Data Structures & Algorithms, Machine Learning AI)
+o JavaScript, Node.js & React (Front End)
+o Java - Spring Boot (Back End)
+o PHP - Laravel (Back End)
+o SQL \ NoSQL (Postgres, MongoDB, Neo4J & CypherQL)
+o C, C++ and C# (Game Development with Unreal Engine & Unity Game Engine)
++ Worked in the Blockcahin Industry as an 'Undergraduate Software Engineer' for 'Power Leder' for a 1x year+
+
+<!-- What do you expect to learn during your studies? -->
+
+I ecpect to become a master-full stack developer by the end of my RMIT studies and being able to take on a higher well paid position as either:
+1. CTO of an AAA Gaming Company
+2. Being a Solutions Architect for Blockchain Enterprises
+3. Work as an Blockchain Developer within the AI/ML Field.
+
+<!-- Ideal Job: Find an avertisement showing what you can believe to be your ideal job. This may require several years of experience, and hence be somthing that your must work towards, rather than somthing that your are ready for now, 
+or will be able to fill as soon as you graduate. -->
+
+Fill as I Graduate @ my own company: https://www.linkedin.com/jobs/view/686518089/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=IN_NETWORK&trk=d_flagship3_job_home
+
+There are various ways to search for IT jobs, including websites like {seek.com.au}.
+You should include the following information:
+
+- The job advertisement itself, Include a link, and a snapshot of it (Incase link expires before the assignment deadline).
+https://www.linkedin.com/jobs/view/686518089/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=IN_NETWORK&trk=d_flagship3_job_home
+
+<!-- - A description (in your own words) of the position, and particularly what makes this position appealing to you. -->
+
+My Description the position:
+Blockchain Engineer \ Distributed Systems Engineer position that requires knowledge with Solidity Smart Contracts, AWS, DevOps and designing large-scale distributed systems.
+Requires 5+ Years Experience
+Values expertise and experience, competitive salaries, performance bonuses and where appropriate. 
+Remote Work
+Unique opportunity & Industry.
+
+<!-- - A description (in your own words) of the skills requird, qualifications and experience for the position. -->
+
+Requires 5+ Years Experience in Blockchain
+Machine learning and artificial intelligence
+Multi Agent Systems
+Designing large-scale distributed systems
+Experience in stream processing systems such as Apache Kafka or AWS Kinesis
+Building real-time or event driven systems
+Building microservices based systems
+Knowledge in AWS and DevOps
+Blockchains and building smart contracts in Solidity
+Worked in the energy industry
+
+
+<!-- - A description (in your own words) of the skills, qualifications and experience you currently have. -->
+
+1 Year Experience In Blockchain
+Machine learning and artificial intelligence
+Multi Agent Systems
+Designing large-scale distributed systems
+Building real-time or event driven systems
+Knowledge in AWS and DevOps
+Blockchains and building smart contracts in Solidity
+Worked in the energy industry
+
+
+<!-- - A plan descibing how you will obtain the skills, qualificationsand experience required for the position, building on those you have right now. This is not be greatly detailed,
+(and will probabily change signiciantly over time anyway), but try to be as specific as you can. -->
+
+Finish University with a HD or HD+ then maybe do Masters.
+Develope strong PHP & Java skills and knowledge of Full-stack development & DevOps
+Work on React Framework in JS for front end.
+Design & Practise writing Solidity Smart Contracts with relative real world use cases with GUI interface.
+
+
+<!-- Personal Profile: --> 
+Which was developed by the mother-and-daughter team of Isabel Myers and Katharine Briggs. Another popular one (and very relatant to students) is about learning styles.
+
+- The results of an online Myers-Briggs test.
+https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/
+
+ENFJ-A
+
+- The results of an online learning style test.
+http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml
+
+- The results of one further online test of your choosing.
+http://www.testmycreativity.com/
+
+
+
+<!-- (The third test should be distinct from both the Myers-Briggs test and the learning styles tests)
+This could be a Big Five Personality test, a creativity test, or a psychometric test. You should be able to find somthing else free. Please ensure that it is somthing a potential employer might find relevant -->
+
+<!-- In addition to the results themselves, you should answer of the questions below with one paragraph. -->
+
+<!-- - What do the results of these tests mean for you? -->
+The Myers-Briggs test: I scored the Protagonist Role - ENFJ-A (Extraverted, Intuitive, Feeling, Judging, Assertive).
+To me this means I am a well defined as a character,
+Generally speaking, the protagonist is the character whom the reader or audience accompanies for the greater part of the narrative. 
+Often the protagonist is the character who exhibits the most profound change or transformation by the end of the story.
+https://www.beemgee.com/blog/protagonist/
+
+
+<!-- - How do you think these results may influence your behaviour in a team? -->
+I think the results have a possive influce on my behaviour when working in a team, It shows my assertiveness and judgemental skills as well as empathy for my teammates.
+
+
+<!-- - How should you take this into account when forming a team? -->
+When taking into account, I would be a very good and understanding leader, seeing both sides of the spectrum and looking at logic before creativity.
+
+<!-- 
+Project Idea:
+You are going to write a report of around 1,000 words describing your project idea. You should describe the projec itself, as well as why you think it is important or interesting, and any potential drawbacks or obstacles you anticipate.
+- What are you passionate about?
+- What kind of IT innovation you would like to see?
+- What project will help you develope the skills, experience and knowledge required to make you qualified for your ideal job?
+
+-- Not to have full answers to any of these questions, but you are required to have some ideas about an IT project that you think will address at least one of these questions.
+It may not be possible to find one that answers all three, but it is quite likely that somthing you would find interesting or useful will have a similar effect on others
+
+
+Potential Ideas:
+Developing a game using tools such as Unity, Construct2 or Coco2d.
+Developing a smartphone app, using whatever programing language in which you have expertise, or by using tools such as MIT App Inventor.
+Finding an innovative application for new hardware developments such as Raspberry Pis, Arduino's, Makey Makeys, Small Robots or related technologies.
+
+For this Assignment you need to write about 1,000 words for your project Idea: ""
+- 1000 words.
+
+Note: This should not only be describing what the project would be, but also why you think it is important or interesting, and what potential drawbacks or obstacles you anticipate.
+Your description should include the following sections. The word counts below are RECONMENDATIONS and not ABSOLUTES but are a good guide. -->
+
+
+<!-- Overview (100 words) - This should be a summary of what the project will be. -->
+
+'Andrew's Self Driving Blockchain Uber\Tesla Concept'
+The future of transportation is now here!
+
+Imagine a digital world, where owners of Telsa's vehicles can 'share' their autonomous vechicles on the Uber network operated by Blockchain Technology.
+The future of transportation is now here! Sadly, We just don't know it yet. Shareholders & owners of Telsa vechicals will get a 5% free from every successful rideshare completion.
+
+<!-- Motivation (100) words) - This should be a description of why the project will be
+interesting or useful. This may include statistics or other evidence, such as: "There
+service. are 1.5 billion cat owners in Australia, and so there is a huge market for an
+automated cat feeder. Using Raspberry Pi technology is a cheap and easily
+assembled solution to this problem." -->
+
+
+The key Motivation for my project is to reduce the risk of deaths on our roads while keeping 'investors' happy. A Win-Win-Situation for all parties, building a company inside a company. 
+With all risks, T&C's accepted by the end user upon entery of the eletric vechical, (there will be a digital ipad displayed on the door).
+
+The goal is to prevent less deaths on the road by removing 'idiots' of our streets.
+Since everything is self-driving and connected on a blockchain network, there would be less issues, less carbon emissions and less human-error.
+
+Its about time artificial intelligence is stepping up and taking over! 
+Electric vehicles currently uses lazer beams, software detection, hard coded obstacle avoidance algorithms, predictive modeling and smart object discrimination.
+A key example is: knowing the difference between a bicycle and a motorcycle. 
+EV software helps follow trafic rules and navigate the shortest path possible from A-Z.
+
+Thesed days, fully autonomous vehicles dont even offer a steering wheel, but they do offer detrimental effects.
+Essentially this means, self driving cars are at the point where they can safely drive under ideal conditions but if it was snowing and the sensors are covered in ice they produce major vulnerability issues, as many manufactures are trying to make
+a serious of redundancies, making sure if one system fails theres other systems to pick up the slack.
+
+
+One of Ubers self driving prototypes killed a pedestrian in 2018, this was a huge public relations setback for the whole industry. On top of the list of technological features, scientists are using AI to teach cars how to drive.
+A model designed by MIT and Microsoft researchers indentifies, driving training examples don't match what's actually happening in the real world. 
+We need engineers to use this model to impoove the safety of artifical intelligence systems.
+https://electrek.co/2018/03/19/uber-self-driving-prototyp-fatal-crash-police/
+Its easier said then done, as the precautions these vehicles take to ensure driver safety.
+
+
+Hence why we need the tool's and technologies of 'Software Developers' to push innovation forward!
+We need Engineers to design multi agent systems, and blockchain networks!
+We need more experts in machine learning and artificial intelligence!
+The tools and technologies of lazer beams, software detection, hard coded obstacle avoidance algorithms, predictive modeling and smart object discrimination.
+
+in addition, these cars use lidar sensors to help detect edges of the road and identify land markings by bouncing pulses of light of the cars surroundings.
+Lidar is a method that uses light in the form of a pulsed laser to measure distances from an object controlled by a computer thats coneccted to the 'blockchain network'.
+
+<!-- Description (500 words) - Detailed description of the features of the product or
+service -->
+
+
+Extremely effective systems, if every car was replaced with autonomous vechciels, there would be less accidents on our roads. There will be no 'uber' or 'lift drivers' only autonomous cabs.
+yes, there will be some accidents and people will still die as a result, however, some estimates say 90% of trafic fatalities around the would could be prevented with autonomous vehicles. See reference:
+https://www.sciencealert.com/driverless-cars-could-reduce-traffic-fatalities-by-up-to-90-says-report
+Autonomous cars need to rechage but they dont need to sleep, take breaks and there singlely minded carrying out the instructions in their programing, as humans we tend to drive drunk, we fall asleep at the wheel and get tired, these consequences are both costly and deadly.
+According to the 'Association for safe international road travel' 1,000,000 people die on the road alone. See reference:
+https://www.asirt.org/initiatives/informing-road-users/road-safety-facts/road-crash-statistics
+
+
+<!-- Tools and Technologies (100) words) - Describe the software, hardware and/or other equipment needed. Include any relevant open source tools as appropriate. -->
+
+
+Hence why we need the tool's and technologies of 'Software Developers' to push innovation forward!
+Our Engineers need to be able to design Multi Agent Systems, and work with current blockchain technologies and machine learning experts to design algorithms.
+
+<!-- Skills Required (100 words) - List the skills are required for your project, including
+software that needs to be written, and special hardware (if any). How feasible will it
+be to find the skills, software and hardware required? -->
+
+Eletric vehicles uses advance metrics and predictive modeling so we need people who know Machine learning and artificial intelligence as well as building real-time or event driven systems
+Electric vehicles currently uses lazer beams, software detection, hard coded obstacle avoidance algorithms, predictive modeling and smart object discrimination.
+Having expeirence in stream processing systems and designing large-scale distributed systems is a must!
+Feasibility of this would be having students who graduate in the field of Software Engineering, Computer Science and IT.
+A degree in the field is not necessary but the willingness to learn & have a strong passion for innovation & IT is heavily favored if the applicant can demonstate good teamwork and experience.
+
+
+<!-- Outcome (100 words) - If the project is successful, what will be the outcome? How
+will the original problem be solved? What impact will this development have? -->
+
+If the project was to be successful, the 'uber/telsa project' would answer and resolve most of the industry's problems globally.
+As stated in the documentation\ white-paper above, Software Developers are like the 'arrowheads' of soceity, we need more developers in the world.
+For change to happen, we need to change the way we think of regulation.
+

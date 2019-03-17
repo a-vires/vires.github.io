@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        /*background-color: #3B4856;*/
+        background-color: #333333;
+        background-image: url('background HD@1x.jpg');
+        background-repeat: no-repeat;
+        background-position: center top left;
+        background-size: 100% 512px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #main-wrapper {
+    }
+
+    h2 {
+        margin: 0px;
+        padding: 20px 0px;
+        color: black;
+    }
+
+    #body-wrapper {
+        margin: 0 auto;
+        width: 600px;
+        background-color: white;
+        padding: 30px 0px;
+        border-top: 6px #3B4856 solid;
+    }
+
+    .test-div {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-content {
+        padding: 0px 80px;
+        font-size: 14px;
+        color: grey;
+        line-height: 18px;
+    }
+
+    #main-wrapper h1 {
+        text-align: center;
+        margin: 70px 0px;
+        font-size: 60px;
+        line-height: 70px;
+        color: white;
+    }
+
+    .main-content h2 {
+        text-align: center;
+        color: grey;
+        font-size: 24px;
+        font-weight: 100;
+        width: 300px;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+
+    .sub-content {
+        padding: 30px 80px;
+        font-size: 12px;
+        color: grey;
+        line-height: 20px;
+    }
+    
+    .info-box {
+        color: grey;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .info-box--links {
+        color: grey;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    /* margin: 0 auto; & width 100% or 600px */
+    .p-text {
+        line-height: 27px;
+        font-size: 16px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .button {
+        background-color: #333333; /* Dark #4BD4DD #*/
+        border: none;
+        color: white;
+        padding: 20px 60px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 5px 10px;
+        border-radius: 3px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .button1 {
+
+    }
+
+    .button1:hover {
+        background-color: #3B4856; /*e7e7e7 */
+    }
+
+    .img-spacer {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .img-logo {
+        width: 100%;
+        height: 160px;
+    }
+
+    .footer {
+        text-align: center;
+        /*background-color: #3B4856;*/
+        padding-top: 15px;
+    }
+
+    .sub-text {
+        font-size: 11px;
+        color: grey;
+    }
+
+    /* ----------- STANDARD MEDIA ----------- */
+    /* On screens that are 992px or less, set the background color to none */
+
+    @media screen
+    and (max-width: 992px) {
+        body {
+            background-image: none;
+        }
+
+        .main-content {
+            padding: 0px 80px;
+            font-size: 14px;
+            color: grey;
+            line-height: 18px;
+        }
+
+        #main-wrapper h1 {
+            font-size: 40px;
+            line-height: 30px;
+        }
+    }
+
+
+    /* ----------- CSS MEDIA QUERIES FOR PHONES, TABLETS, LAPTOPS, WATCHES ----------- */
+    /* ----------- Andrew Vu ----------- */
+
+
+    /* ----------- Non-Retina Screens ----------- */
+
+
+    @media screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+    }
+
+
+    /* ----------- Retina Screens ----------- */
+
+
+    @media screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (min-resolution: 192dpi) {
+    }
+
+
+    /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .main-content {
+
+        }
+
+        .p-text {
+            font-size: 14px;
+            line-height: 30px;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+
+    }
+
+
+    /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .footer {
+            padding-top: 30px;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+
+    /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+        .footer {
+            padding-top: 25px;
+        }
+
+        .sub-text {
+            font-size: 12px;
+        }
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+
+    /* ----------- iPhone X ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+        .footer {
+            padding-top: 30px;
+        }
+
+        .sub-text {
+            font-size: 12px;
+        }
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+
+    /* ----------- Apple Watch ----------- */
+
+
+    @media
+    (max-device-width: 42mm)
+    and (min-device-width: 38mm) {
+
+    }
+
+
+    /* ----------- iPad 1, 2, Mini and Air ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+        .footer {
+            padding-top: 30px;
+        }
+
+        .sub-text {
+            font-size: 14px;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+    }
+
+
+    /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .footer {
+            padding-top: 30px;
+        }
+
+        .sub-text {
+            font-size: 14px;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+
+    /* ----------- iPad Pro 10.5" ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 834px)
+    and (max-device-width: 1112px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Portrait */
+    /* Declare the same value for min- and max-width to avoid colliding with desktops */
+    /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+    @media only screen
+    and (min-device-width: 834px)
+    and (max-device-width: 834px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Landscape */
+    /* Declare the same value for min- and max-width to avoid colliding with desktops */
+    /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+    @media only screen
+    and (min-device-width: 1112px)
+    and (max-device-width: 1112px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+
+    /* ----------- iPad Pro 12.9" ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 1024px)
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .footer {
+            padding-top: 30px;
+        }
+
+        .sub-text {
+            font-size: 15px;
+        }
+    }
+
+    /* Portrait */
+    /* Declare the same value for min- and max-width to avoid colliding with desktops */
+    /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+    @media only screen
+    and (min-device-width: 1024px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Landscape */
+    /* Declare the same value for min- and max-width to avoid colliding with desktops */
+    /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+    @media only screen
+    and (min-device-width: 1366px)
+    and (max-device-width: 1366px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+
+    /* ----------- Galaxy 6, S7, and S7 edge ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 4) {
+        /* STYLES GO HERE */
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 4)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 4)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+
+    /* ----------- Galaxy S8, S8+, S9, S9+ and Note 8 ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 740px)
+    and (-webkit-min-device-pixel-ratio: 4) {
+        /* STYLES GO HERE */
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 740px)
+    and (-webkit-min-device-pixel-ratio: 4)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 740px)
+    and (-webkit-min-device-pixel-ratio: 4)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+    </style>
+        <title>
+        Assessment 1: My Profile - Andrew Vu
+        </title>
+</head>
+
+<body>
+    <div class="test-div">
+    <div style="text-align: right; width: 100%; margin: 0px; padding: 0px">
+        <a style=" margin: 20px; font-size: 11px; line-height: 40px; color: grey" href="https://a-vires.github.io/vires.github.io/" target="_blank">View in browser</a>
+    </div>
+    <div id="main-wrapper">
+        <div style="padding: 30px 0px 30px 0px">
+            <!--<img class="img-logo" src="andrew.svg">-->
+        </div>
+        <div id="body-wrapper">
+            <div class="main-content">
+                <h2>Assessment 1: My Profile Andrew Vu</h2>
+                 <img class="img-spacer" src="andrew.jpg">
+                <!-- <p class="p-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, cum!</p>
+                <p class="p-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolorum itaque laudantium minima, quis quod repellat voluptatum. Dolorum, fugiat officiis?</p> -->
+                
+                <div class="info-box">
+                <p>Name: Andrew Vu<p>
+                <p>Student Number: S3668698</p>
+                <p>Email Address: vu@andrew-vu.com</p>
+                <p>Background Information: Professional Magic: The Gathering Player (STANDARD)</p>
+                <p>Nationality: Australian</p>
+                <p>Culture: Vietnamese</p>
+                <p>Education to Date: University of Western Australia (Architecture)</p>
+                <p>Languages Spoken: English, Vietnamese</p>
+                <p>Fun Fact: SCG MTG Inventational Qualifier eSports Top 8 - 2019 Perth WA, Likes to go snowboard and visting Japan.</p>
+                </div>
+
+
+                <div>&nbsp</div>
+
+                <p class="info-box--links">Please click the buttons below to navigate:</p>
+
+            </div>
+            <div style="text-align: center; background-color: white">
+                <div style="padding-top: 20px"></div>
+                <a href="project.html" target="_blank" class="button button1"> My Project </a>
+                <a href="testresults.html" target="_blank" class="button button1"> My Test Results </a>
+                <div style="padding-bottom: 20px"></div>
+                
+            </div>
+             <!--<img class="img-spacer" src="spacer.jpg">-->
+                <!-- <img class="img-spacer" src="andrew.jpg"> -->
+            <div class="sub-content">
+                <p>Q: A natural starting place is to ask why you have chosen to study at RMIT?</p>
+                <p>A: I've choosen RMIT since it's a global university recognised for leadership and innovation in technology. Most of my colleges in the industry are now RMIT Alumni and experts in the field.</p>
+
+                <p>Q: What makes IT interesting to me?</p>
+                <p>A: As a Software Engineer \ Developer we're like the arrowheads of soceity, in order for 'us' - The collective human-race, to evolve as an apex species we need to constantly push innovation and future technologiy advancements so we can explore the 'unknown'.
+                    I strongly beleive we need more hackers in the world to 'break things' and take risk of behalf of soceity.
+                    If 'We' - 'The Collective', followed the original 'White-Paper' of the 'internet of 98' all we would have is legacy HTML and CSS code for 'emails'.. The Facebook, Instagram, and Snapchat of today would no longer exist without Hack's, Glitche's & Exploit's.
+                    The death of the 'Planet' won't be due to natural deasters or diseases but our very own doing. The take over of Artifical Intelligence is upon us.
+                </p>
+
+                <p>Q: What lead me to study at RMIT?</p>
+                <p>A: I visted Melbourne for the first time in 'late 2016' to see relatives in Springvale at the time I need a break from my main family for a quick 2 week holiday as i've been living in Perth and Sydney my whole life and got sick of my local environment.
+                One day I went out for dinner with freinds as we took public transportation into the CBD (Uber was a bad), I saw a beautiful Architectural Building Facade & noticed it was RMIT's Main Campus building and it turns out to be a University.</p>
+                
+                <p>Q: What should you hope to do after graduation?</p>
+                <p>A: I'm currently doing my internship for a blockchain company called 'Power Ledger', I one day hope to advance and become a Soultions Architect or Blockchain Developer.</p>
+
+    
+                <p>Q: What is your interest in IT? - When did your interest in IT start? - Was there a partocular event or person that sparked your interest?</p>
+                <p>A: My intest for IT started very young back in 2008 when I was in High School (lol yes, High School), I've received alot of IT Awards and still have kepted them till today (see below),
+                    For me its about understanding technology and thinking differently, at the time I'd considerred myself to be a 'Nerd'. 
+                    Growing up with a 'broken' family didn't help, as I didn't have good parents to raise or guide me, so I turned to the internet for advice.
+                    My childhood consisted in playing ALOT of 'Magic: the gathering', Playstation 1 & 2.
+                    - Funny enough, 10 years later Im the state champion for 'Magic: the gathering' 
+                    - Honestly, This expeirence had lead and ignited my passion for Programing \ Development, as I have pursued this path at a very young age but never considered it as a Professional Carreer until now. </p>
+
+
+                <p>My curerent experience:</p>
+                <p>Programming Languages:</p>
+                <p>o Solidity (Ethereum Blockchain Smart Contracts)</p>
+                <p>o Ruby on Rails/Bash/Ubuntu/Linux (Object-oriented Programming OOP)</p>
+                <p>o Python (Data Structures & Algorithms, Machine Learning AI)</p>
+                <p>o JavaScript, Node.js & React (Front End)</p>
+                <p>o Java - Spring Boot (Back End)</p>
+                <p>o PHP - Laravel (Back End)</p>
+                <p>o SQL \ NoSQL (Postgres, MongoDB, Neo4J & CypherQL)</p>
+                <p>o C, C++ and C# (Game Development with Unreal Engine & Unity Game Engine)</p>
+                <p>+ Worked in the Blockcahin Industry as an 'Undergraduate Software Engineer' for 'Power Leder' for a 1x year+</p>
+
+
+                <p>Q: What do you expect to learn during your studies?</p>
+                <p>A: I ecpect to become a master-full stack developer by the end of my RMIT studies and being able to take on a higher well paid position as either:
+                1. CTO of an AAA Gaming Company
+                2. Being a Solutions Architect for Blockchain Enterprises
+                3. Work as an Blockchain Developer within the AI/ML Field.</p>
+                
+                
+                
+                
+                <p>Q: Ideal Job: Find an avertisement showing what you can believe to be your ideal job. This may require several years of experience, and hence be somthing that your must work towards, rather than somthing that your are ready for now, 
+                    or will be able to fill as soon as you graduate.</p>
+                <p>A: Fill as I Graduate @ my own company:</p>
+                 <a class="sub-text" href=" https://www.linkedin.com/jobs/view/686518089/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=IN_NETWORK&trk=d_flagship3_job_home" target="_blank"> https://www.linkedin.com/jobs/view/686518089/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=IN_NETWORK&trk=d_flagship3_job_home </a>
+
+                <p>Q: A description (in your own words) of the position, and particularly what makes this position appealing to you.</p>
+                <p>A: My Description the position:
+                    Blockchain Engineer \ Distributed Systems Engineer position that requires knowledge with Solidity Smart Contracts, AWS, DevOps and designing large-scale distributed systems.
+                    Requires 5+ Years Experience
+                    Values expertise and experience, competitive salaries, performance bonuses and where appropriate. 
+                    Remote Work
+                    Unique opportunity & Industry.</p>
+
+
+                <p>Q: A description (in your own words) of the skills, qualifications and experience you currently have.</p>
+                <p>A: 1 Year Experience In Blockchain
+                    Machine learning and artificial intelligence
+                    Multi Agent Systems
+                    Designing large-scale distributed systems
+                    Building real-time or event driven systems
+                    Knowledge in AWS and DevOps
+                    Blockchains and building smart contracts in Solidity
+                    Worked in the energy industry</p>
+
+                <p>Q: A plan descibing how you will obtain the skills, qualificationsand experience required for the position, building on those you have right now. This is not be greatly detailed,
+                    (and will probabily change signiciantly over time anyway), but try to be as specific as you can.</p>
+                <p>A: Finish University with a HD or HD+ then maybe do Masters.
+                    Develope strong PHP & Java skills and knowledge of Full-stack development & DevOps
+                    Work on React Framework in JS for front end.
+                    Design & Practise writing Solidity Smart Contracts with relative real world use cases with GUI interface.</p>
+            </div>
+        </div>
+            <div class="footer">
+            <!-- <a class="sub-text" href="https://a-vires.github.io/vires.github.io/" target="_blank">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, cum!</a> -->
+            <a class="sub-text" href="https://a-vires.github.io/vires.github.io/" target="_blank">https://a-vires.github.io/vires.github.io/</a>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>

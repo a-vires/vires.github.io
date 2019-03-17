@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        /*background-color: #3B4856;*/
+        background-color: #333333;
+        background-image: url('background HD@1x.jpg');
+        background-repeat: no-repeat;
+        background-position: center top left;
+        background-size: 100% 512px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #main-wrapper {
+    }
+
+    h2 {
+        margin: 0px;
+        padding: 20px 0px;
+        color: black;
+    }
+
+    #body-wrapper {
+        margin: 0 auto;
+        width: 600px;
+        background-color: white;
+        padding: 30px 0px;
+        border-top: 6px #3B4856 solid;
+    }
+
+    .test-div {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-content {
+        padding: 0px 80px;
+        font-size: 14px;
+        color: grey;
+        line-height: 18px;
+    }
+
+    #main-wrapper h1 {
+        text-align: center;
+        margin: 70px 0px;
+        font-size: 60px;
+        line-height: 70px;
+        color: white;
+    }
+
+    .main-content h2 {
+        text-align: center;
+        color: grey;
+        font-size: 24px;
+        font-weight: 100;
+        width: 300px;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+
+    .sub-content {
+        padding: 30px 80px;
+        font-size: 12px;
+        color: grey;
+        line-height: 20px;
+    }
+
+    /* margin: 0 auto; & width 100% or 600px */
+    .p-text {
+        line-height: 27px;
+        font-size: 16px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .button {
+        background-color: #333333; /* Dark #4BD4DD #*/
+        border: none;
+        color: white;
+        padding: 10px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        border-radius: 3px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .button1 {
+
+    }
+
+    .button1:hover {
+        background-color: #3B4856; /*e7e7e7 */
+    }
+
+    .img-spacer {
+        width: 100%;
+        height: 400px;
+    }
+
+    .img-logo {
+        width: 100%;
+        height: 160px;
+    }
+
+    .footer {
+        text-align: center;
+        /*background-color: #3B4856;*/
+        padding-top: 15px;
+    }
+
+    .sub-text {
+        font-size: 11px;
+        color: grey;
+    }
+
+    /* ----------- STANDARD MEDIA ----------- */
+    /* On screens that are 992px or less, set the background color to none */
+
+    @media screen
+    and (max-width: 992px) {
+        body {
+            background-image: none;
+        }
+
+        .main-content {
+            padding: 0px 80px;
+            font-size: 14px;
+            color: grey;
+            line-height: 18px;
+        }
+
+        #main-wrapper h1 {
+            font-size: 40px;
+            line-height: 30px;
+        }
+    }
+
+
+    /* ----------- CSS MEDIA QUERIES FOR PHONES, TABLETS, LAPTOPS, WATCHES ----------- */
+    /* ----------- Andrew Vu ----------- */
+
+
+    /* ----------- Non-Retina Screens ----------- */
+
+
+    @media screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+    }
+
+
+    /* ----------- Retina Screens ----------- */
+
+
+    @media screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (min-resolution: 192dpi) {
+    }
+
+
+    /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .main-content {
+
+        }
+
+        .p-text {
+            font-size: 14px;
+            line-height: 30px;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+
+    }
+
+
+    /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .footer {
+            padding-top: 30px;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+
+    /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+        .footer {
+            padding-top: 25px;
+        }
+
+        .sub-text {
+            font-size: 12px;
+        }
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+
+    /* ----------- iPhone X ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+        .footer {
+            padding-top: 30px;
+        }
+
+        .sub-text {
+            font-size: 12px;
+        }
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+
+    /* ----------- Apple Watch ----------- */
+
+
+    @media
+    (max-device-width: 42mm)
+    and (min-device-width: 38mm) {
+
+    }
+
+
+    /* ----------- iPad 1, 2, Mini and Air ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+        .footer {
+            padding-top: 30px;
+        }
+
+        .sub-text {
+            font-size: 14px;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+    }
+
+
+    /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .footer {
+            padding-top: 30px;
+        }
+
+        .sub-text {
+            font-size: 14px;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+
+    /* ----------- iPad Pro 10.5" ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 834px)
+    and (max-device-width: 1112px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Portrait */
+    /* Declare the same value for min- and max-width to avoid colliding with desktops */
+    /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+    @media only screen
+    and (min-device-width: 834px)
+    and (max-device-width: 834px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Landscape */
+    /* Declare the same value for min- and max-width to avoid colliding with desktops */
+    /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+    @media only screen
+    and (min-device-width: 1112px)
+    and (max-device-width: 1112px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+
+    /* ----------- iPad Pro 12.9" ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 1024px)
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .footer {
+            padding-top: 30px;
+        }
+
+        .sub-text {
+            font-size: 15px;
+        }
+    }
+
+    /* Portrait */
+    /* Declare the same value for min- and max-width to avoid colliding with desktops */
+    /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+    @media only screen
+    and (min-device-width: 1024px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Landscape */
+    /* Declare the same value for min- and max-width to avoid colliding with desktops */
+    /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+    @media only screen
+    and (min-device-width: 1366px)
+    and (max-device-width: 1366px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+
+    /* ----------- Galaxy 6, S7, and S7 edge ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 4) {
+        /* STYLES GO HERE */
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 4)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 4)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+
+    /* ----------- Galaxy S8, S8+, S9, S9+ and Note 8 ----------- */
+
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 740px)
+    and (-webkit-min-device-pixel-ratio: 4) {
+        /* STYLES GO HERE */
+    }
+
+    /* Portrait */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 740px)
+    and (-webkit-min-device-pixel-ratio: 4)
+    and (orientation: portrait) {
+        /* STYLES GO HERE */
+    }
+
+    /* Landscape */
+    @media only screen
+    and (min-device-width: 360px)
+    and (max-device-width: 740px)
+    and (-webkit-min-device-pixel-ratio: 4)
+    and (orientation: landscape) {
+        /* STYLES GO HERE */
+    }
+
+    </style>
+        <title>
+        Assessment 1: My Profile - Andrew Vu
+        </title>
+</head>
+
+<body>
+    <div class="test-div">
+    <div style="text-align: right; width: 100%; margin: 0px; padding: 0px">
+        <a style=" margin: 20px; font-size: 11px; line-height: 40px; color: grey" href="https://a-vires.github.io/vires.github.io/" target="_blank">View in browser</a>
+    </div>
+    <div id="main-wrapper">
+        <div style="padding: 30px 0px 30px 0px">
+            <!-- <img class="img-logo" src="car.jpg"> -->
+        </div>
+        <div id="body-wrapper">
+            <div class="main-content">
+                <h2>Assessment 1: My Project</h2>
+            </div>
+            <!-- <div style="text-align: center; background-color: white">
+                <div style="padding-top: 20px"></div>
+                <a href="project.html" target="_blank" class="button button1"> Project </a>
+                <div style="padding-bottom: 50px"></div>
+            </div> -->
+            <!--<img class="img-spacer" src="spacer.jpg">-->
+                <img class="img-logo" src="car.jpg">
+            <div class="sub-content">
+
+            <p>
+            'Andrew's Self Driving Blockchain Uber\Tesla Concept'
+            The future of transportation is now here!
+            </p>
+
+            <p>
+            Imagine a digital world, where owners of Telsa's vehicles can 'share' their autonomous vechicles on the Uber network operated by Blockchain Technology.
+            The future of transportation is now here! Sadly, We just don't know it yet. Shareholders & owners of Telsa vechicals will get a 5% free from every successful rideshare completion.
+            </p>
+
+                
+<p>The key Motivation for my project is to reduce the risk of deaths on our roads while keeping 'investors' happy. A Win-Win-Situation for all parties, building a company inside a company. 
+With all risks, T&C's accepted by the end user upon entery of the eletric vechical, (there will be a digital ipad displayed on the door).
+</p>
+
+<p>
+The goal is to prevent less deaths on the road by removing 'idiots' of our streets.
+Since everything is self-driving and connected on a blockchain network, there would be less issues, less carbon emissions and less human-error.
+</p>
+
+<p>
+Its about time artificial intelligence is stepping up and taking over! 
+Electric vehicles currently uses lazer beams, software detection, hard coded obstacle avoidance algorithms, predictive modeling and smart object discrimination.
+A key example is: knowing the difference between a bicycle and a motorcycle. 
+EV software helps follow trafic rules and navigate the shortest path possible from A-Z.
+</p>
+
+<p>
+Thesed days, fully autonomous vehicles dont even offer a steering wheel, but they do offer detrimental effects.
+Essentially this means, self driving cars are at the point where they can safely drive under ideal conditions but if it was snowing and the sensors are covered in ice they produce major vulnerability issues, as many manufactures are trying to make
+a serious of redundancies, making sure if one system fails theres other systems to pick up the slack.
+</p>
+
+<p>
+One of Ubers self driving prototypes killed a pedestrian in 2018, this was a huge public relations setback for the whole industry. On top of the list of technological features, scientists are using AI to teach cars how to drive.
+A model designed by MIT and Microsoft researchers indentifies, driving training examples don't match what's actually happening in the real world. 
+We need engineers to use this model to impoove the safety of artifical intelligence systems.
+https://electrek.co/2018/03/19/uber-self-driving-prototyp-fatal-crash-police/
+Its easier said then done, as the precautions these vehicles take to ensure driver safety.
+</p>
+
+<p>
+Hence why we need the tool's and technologies of 'Software Developers' to push innovation forward!
+We need Engineers to design multi agent systems, and blockchain networks!
+We need more experts in machine learning and artificial intelligence!
+The tools and technologies of lazer beams, software detection, hard coded obstacle avoidance algorithms, predictive modeling and smart object discrimination.
+</p>
+
+<p>
+in addition, these cars use lidar sensors to help detect edges of the road and identify land markings by bouncing pulses of light of the cars surroundings.
+Lidar is a method that uses light in the form of a pulsed laser to measure distances from an object controlled by a computer thats coneccted to the 'blockchain network'.
+</p>
+
+<p>
+Extremely effective systems, if every car was replaced with autonomous vechciels, there would be less accidents on our roads. There will be no 'uber' or 'lift drivers' only autonomous cabs.
+yes, there will be some accidents and people will still die as a result, however, some estimates say 90% of trafic fatalities around the would could be prevented with autonomous vehicles. See reference:
+https://www.sciencealert.com/driverless-cars-could-reduce-traffic-fatalities-by-up-to-90-says-report
+</p>
+ <a class="sub-text" href="https://www.sciencealert.com/driverless-cars-could-reduce-traffic-fatalities-by-up-to-90-says-report" target="_blank">https://www.sciencealert.com/driverless-cars-could-reduce-traffic-fatalities-by-up-to-90-says-report</a>
+
+<p>
+Autonomous cars need to rechage but they dont need to sleep, take breaks and there singlely minded carrying out the instructions in their programing, as humans we tend to drive drunk, we fall asleep at the wheel and get tired, these consequences are both costly and deadly.
+According to the 'Association for safe international road travel' 1,000,000 people die on the road alone. See reference:
+</p>
+ <a class="sub-text" href="https://www.asirt.org/initiatives/informing-road-users/road-safety-facts/road-crash-statistics" target="_blank">https://www.asirt.org/initiatives/informing-road-users/road-safety-facts/road-crash-statistics</a>
+
+<p>
+Hence why we need the tool's and technologies of 'Software Developers' to push innovation forward!
+Our Engineers need to be able to design Multi Agent Systems, and work with current blockchain technologies and machine learning experts to design algorithms.
+</p>
+
+<p>
+Eletric vehicles uses advance metrics and predictive modeling so we need people who know Machine learning and artificial intelligence as well as building real-time or event driven systems
+Electric vehicles currently uses lazer beams, software detection, hard coded obstacle avoidance algorithms, predictive modeling and smart object discrimination.
+Having expeirence in stream processing systems and designing large-scale distributed systems is a must!
+Feasibility of this would be having students who graduate in the field of Software Engineering, Computer Science and IT.
+A degree in the field is not necessary but the willingness to learn & have a strong passion for innovation & IT is heavily favored if the applicant can demonstate good teamwork and experience.
+</p>
+
+<p>
+If the project was to be successful, the 'uber/telsa project' would answer and resolve most of the industry's problems globally.
+As stated in the documentation\ white-paper above, Software Developers are like the 'arrowheads' of soceity, we need more developers in the world.
+For change to happen, we need to change the way we think of regulation.
+</p>
+
+            </div>
+        </div>
+            <div class="footer">
+            <a class="sub-text" href="https://a-vires.github.io/vires.github.io/" target="_blank">https://a-vires.github.io/vires.github.io/</a>
+            
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
